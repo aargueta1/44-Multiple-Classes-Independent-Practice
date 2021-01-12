@@ -1,0 +1,51 @@
+h2{text-align:center;}
+.title{border:solid purple 5px; background-image:url(https://i.makeagif.com/media/4-02-2016/qr5ZET.gif);
+}
+
+.parent2{Display:flex;
+justify-content:space-between;background:gold;border:solid blue 5px;}
+
+.parent1{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 500px;
+  height: 400px;
+  align-content: space-between;
+}
+
+.small-height {
+    height: 100px;
+}
+
+.small-width {
+    width: 100px;
+}
+
+.green-frame {
+    border: 10px ridge #00FFCC;
+    padding: 5px;
+}
+
+.black-frame {
+    border: 5px solid black;
+    padding: 5px;
+}
+
+.pink-frame {
+    border: 8px double #E4A4EE;
+    padding: 2px;
+}
+
+.circle {
+    border-radius:50%;
+}
+
+
+img {
+  max-width: 10%;
+    height: auto;}
+
+div {
+    padding: 5px; margin:5px;
+}
